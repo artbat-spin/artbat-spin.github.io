@@ -14,6 +14,9 @@ function Routes() {
         <Route exact path="/" component={Insert} />
         <Route exact path="/spinner" component={Spinner} />
         <Route exact path="/result" component={Result} />
+        <Route exact path="/artbat-gen/" component={Insert} />
+        <Route exact path="/artbat-gen/spinner" component={Spinner} />
+        <Route exact path="/artbat-gen/result" component={Result} />
       </Switch>
     </Layout>
   );
